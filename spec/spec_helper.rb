@@ -14,7 +14,4 @@ Dir[File.join(support_dir, '**/*.rb')].each { |f| require f }
 require 'rsqrl'
 
 RSpec.configure do |config|
-  config.extend Macros::Models
-  config.include RspecSupport::UserObject
-
 end
