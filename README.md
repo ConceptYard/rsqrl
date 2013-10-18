@@ -1,6 +1,10 @@
-# Rsqrl
+# rsqrl
 
-TODO: Write a gem description
+Ruby implementation of Secure QR Login algorithm
+
+Proposing a comprehensive, easy-to-use, high security replacement for usernames, passwords, reminders, one-time-code authenticators, and everything else.
+
+See [The SQRL Page](https://www.grc.com/sqrl/sqrl.htm) for a detailed explaination of the concept and algorithms to implement the SQRL system.
 
 ## Installation
 
