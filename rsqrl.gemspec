@@ -26,5 +26,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec"
   spec.add_development_dependency 'simplecov'
   spec.add_development_dependency 'growl-rspec'
-  spec.add_development_dependency 'spork'
+
+  spec.add_dependency 'rbnacl'
 end
