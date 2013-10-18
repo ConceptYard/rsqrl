@@ -1,9 +1,8 @@
 require 'simplecov'
+
 if ENV["COV"]
   SimpleCov.start do
     add_filter "/spec/"
-    add_filter "/vendor/"
-    add_filter "/config\/initializers/"
   end
 end
 
@@ -14,4 +13,5 @@ Dir[File.join(support_dir, '**/*.rb')].each { |f| require f }
 require 'rsqrl'
 
 RSpec.configure do |config|
+  config.mock_with :rspec
 end
