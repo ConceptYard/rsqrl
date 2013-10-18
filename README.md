@@ -8,7 +8,13 @@ See [The SQRL Page](https://www.grc.com/sqrl/sqrl.htm) for a detailed explainati
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Rsqrl uses [RbNaCl](https://github.com/cryptosphere/rbnacl), the Ruby Cryptography Library. RbNaCl is a Ruby wrapper for a cryptography library written in C, [libsodium](https://github.com/jedisct1/libsodium). Libsodium needs to be installed on your development and server systems.
+
+For OS X users, libsodium is available via homebrew and can be installed with:
+
+    brew install libsodium
+
+To add rsqrl to your project, add this line to your application's Gemfile:
 
     gem 'rsqrl'
 
