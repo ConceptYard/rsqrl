@@ -7,10 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = "rsqrl"
   spec.version       = Rsqrl::VERSION
   spec.authors       = ["Robert Schmitt"]
-  spec.email         = ["forever@thelongterm.net"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.email         = ["bob@conceptyard.com"]
+  spec.description   = %q{The website's login presents a QR code containing the URL of its authentication service, plus a nonce. The user's smartphone signs the login URL using a private key derived from its master secret and the URL's domain name. The Smartphone sends the matching public key to identify the user, and the signature to authenticate it.}
+  spec.summary       = %q{A comprehensive, easy-to-use, high security replacement for usernames, passwords, reminders, one-time-code authenticators and everything else.}
+  spec.homepage      = "https://github.com/ConceptYard/rsqrl"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
